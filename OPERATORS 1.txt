@@ -1,0 +1,182 @@
+OPERATORS:                                                      
+
+
+TASK :1
+package Com.operations;
+
+public class Example1 {
+  int a=10;
+  int b=20;
+	public static void main(String[] args) {
+		Example1 e=new Example1();
+		
+		System.out.println("a+b="+(e.a+e.b));
+		System.out.println("a-b="+(e.a-e.b));
+		System.out.println("a*b="+(e.a*e.b));
+		System.out.println("a/b="+(e.a/e.b));
+		System.out.println("a%b="+(e.a%e.b));
+		
+		
+
+	}
+
+}
+
+OUTPUT:
+
+a+b=30
+a-b=-10
+a*b=200
+a/b=0
+a%b=10
+
+TASK:2
+
+package Com.operations;
+
+public class Example2 {
+	
+ int x=20;
+ 
+
+	public static void main(String[] args) {
+	Example2 e=new Example2();
+	System.out.println("x++="+(e.x++));
+	System.out.println("++x="+(++e.x));
+	System.out.println("x--="+(e.x--));
+	System.out.println("--x="+(--e.x));
+    
+	}
+
+}
+
+
+OUTPUT:
+
+x++=20
+++x=22
+x--=22
+--x=20
+
+TASK :3
+
+package Com.operations;
+
+public class Exapmle3 {
+	String name;
+	int tel;
+	int hin;
+	int eng;
+	int maths;
+	int sci;
+	int soc;
+	int GK;
+	
+	
+ public static void main(String[] args) {
+	 Exapmle3 s1=new Exapmle3();
+	 s1.name="Student1";
+	 s1.tel=85;
+	 s1.hin=88;
+	 s1.eng=75;
+	 s1.maths=90;
+	 s1.sci=95;
+	 s1.soc=78;
+	 s1.GK=98;
+	 
+	 
+	 Exapmle3 s2=new Exapmle3();
+	 s2.name="Student2";
+	 s2.tel=85;
+	 s2.hin=67;
+	 s2.eng=87;
+	 s2.maths=78;
+	 s2.sci=95;
+	 s2.soc=78;
+	 s2.GK=98;
+	 
+	 
+	System.out.println("s1.tel=s2.tel="+(s1.tel=s2.tel));
+	System.out.println("s1.hin>s2.hin="+(s1.hin>s2.hin));
+	System.out.println("s1.eng<s2.eng="+(s1.eng<s2.eng));
+	System.out.println("s1.maths!=s2.maths="+(s1.maths!=s2.maths));
+	System.out.println("s1.sci>=s2.sci="+(s1.sci>=s2.sci));
+	System.out.println("s1.soc<=s2.soc="+(s1.soc<=s2.soc));
+    System.out.println("s1.GK!=s2.GK="+(s1.GK!=s2.GK));
+	}
+}
+
+OUTPUT:
+
+s1.tel=s2.tel=85
+s1.hin>s2.hin=true
+s1.eng<s2.eng=true
+s1.maths!=s2.maths=true
+s1.sci>=s2.sci=true
+s1.soc<=s2.soc=true
+s1.GK!=s2.GK=false
+
+
+
+TASK:4
+
+package Com.operations;
+
+public class Example4 {
+
+	public static void main(String[] args) {
+		int x=100;
+		System.out.println("x="+x);
+		x+=50;
+		System.out.println("x+="+x);
+		x-=10;
+		System.out.println("x-="+x);
+		x*=2;
+		System.out.println("x*="+x);
+		x/=5;
+		System.out.println("x/="+x);
+		x%=2;
+		System.out.println("x%="+x);
+     
+	}
+
+}
+
+
+OUTPUT:
+
+x=100
+x+=150
+x-=140
+x*=280
+x/=56
+x%=0
+
+
+TASK :5
+
+
+package Com.operations;
+
+public class Example5 {
+double Basicsalary=40000,
+ HRA=7000,
+ DA=5000,
+ Grosssalary; 
+
+	public static void main(String[] args) {
+	Example5 e=new Example5();
+    double grosssalary=e.Basicsalary + e.HRA +e.DA;
+   System.out.println("Gross salary="+grosssalary);
+   System.out.println("Grosssalary>50000="+(grosssalary>50000));
+   grosssalary+=5000;
+   System.out.println("UPDATED Grosssalary+=5000="+(grosssalary+=5000));
+	}
+
+}
+
+OUTPUT:
+
+Gross salary=52000.0
+Grosssalary>50000=true
+UPDATED Grosssalary+=5000=62000.0
