@@ -1,0 +1,12 @@
+
+package operators;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+    int num1=40;
+    int num2=2;
+    System.out.println(40>>2);
+	}
+
+}
